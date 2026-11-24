@@ -44,7 +44,7 @@
     "matrix-snapshot.json": "ee84b8365d76a7c380f9cec2fe03168d603e85a7a289e11543de08f1dc421b5c",
     "standard_house_annual_report.html": "d249bfc08b9cf71e6023fccfa6b2d97e3ccec198e3aa790c757e1125d3c08607",
     "standard_house_annual_report.xlsx": "cc62dbddf6b7b1f5bc7b86137981c2fe1d51a763fbd96827fec2ad3ab14a1e38",
-    "standard_house_extreme_weeks.html": "9b37d962b402e5e74eacea0bce75dab49b2b1dc97fd62f55a3075a7597217549",
+    "standard_house_extreme_weeks.html": "ca3212a4d9ddf5438b2529c10aca695be47f61c56ca934783192305a98de9e74",
     "extreme-weeks": {
       "4_0.5_0219.json": "373eebc5253654c15766309f33259e1ca0ccb0e8307bdc6e95fd72e434a7d7af",
       "4_0.5_0727.json": "d7acc9c069853cb6c4b36975540c87dafe128dd33e3b1da10d492fc2d5865167",
@@ -98,6 +98,6 @@
   },
   "reports": {
     "github_weekly_html_mode": "同一リポジトリの48時系列JSONを読み込む軽量版",
-    "library_weekly_html_mode": "48条件を内包する自己展開版"
+    "library_weekly_html_mode": "温湿度は外部と主要8室を表示。全48条件を内蔵。"
   }
 }
