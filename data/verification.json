@@ -1,0 +1,103 @@
+{
+  "verified_at_utc": "2026-11-23T23:46:28.437688+00:00",
+  "annual": {
+    "conditions": 24,
+    "hours_per_condition": 8760,
+    "grades": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "airtightness_multipliers": [
+      0,
+      0.5,
+      1,
+      2,
+      4,
+      8
+    ]
+  },
+  "extreme_weeks": {
+    "files": 48,
+    "hours_per_file": 168,
+    "cold_week": "2026-02-19/2026-02-25",
+    "hot_week": "2026-07-27/2026-08-02"
+  },
+  "metrics": [
+    "室別温度",
+    "室別相対湿度",
+    "室別絶対湿度",
+    "全館空調負荷",
+    "全館空調消費電力"
+  ],
+  "annual_recovery": {
+    "stitched_cases": [
+      "grade5_x8",
+      "grade7_x4",
+      "grade7_x8"
+    ],
+    "grade7_x8_restart_airflow_match_deadband_m3_s": 0.02,
+    "verification": "接続後の年間対象8,760時間が連続してそろうことを検証"
+  },
+  "sha256": {
+    "matrix-snapshot.json": "ee84b8365d76a7c380f9cec2fe03168d603e85a7a289e11543de08f1dc421b5c",
+    "standard_house_annual_report.html": "d249bfc08b9cf71e6023fccfa6b2d97e3ccec198e3aa790c757e1125d3c08607",
+    "standard_house_annual_report.xlsx": "cc62dbddf6b7b1f5bc7b86137981c2fe1d51a763fbd96827fec2ad3ab14a1e38",
+    "standard_house_extreme_weeks.html": "9b37d962b402e5e74eacea0bce75dab49b2b1dc97fd62f55a3075a7597217549",
+    "extreme-weeks": {
+      "4_0.5_0219.json": "373eebc5253654c15766309f33259e1ca0ccb0e8307bdc6e95fd72e434a7d7af",
+      "4_0.5_0727.json": "d7acc9c069853cb6c4b36975540c87dafe128dd33e3b1da10d492fc2d5865167",
+      "4_0_0219.json": "0648f9da464c2b3a42081bd9b9e6242e9809f35edad7879a8707c96b3b54e766",
+      "4_0_0727.json": "bf69a667d8b814085c034acb41bc97e5a66b0d7818ab894f93b141bb93865f1c",
+      "4_1_0219.json": "3ae282ee8ea1a340b23e1becb265ab47b02214a7efed1941739e52096926b778",
+      "4_1_0727.json": "934ef1640e9b447d8fcbb89dc8232448f1fa93366fe7b01d8a76650bc780f399",
+      "4_2_0219.json": "ae8dbc609d0c0223232cd0e9973019d6c63ce418a97d73915acb984376c620ea",
+      "4_2_0727.json": "47678a5e3d919baa2b7561931b31da31d7609d7f38de6fa99214bd259f434eb1",
+      "4_4_0219.json": "0c656f11aec3b4f3a26595813e5dc1dae9473abd4b61c93e388b871abd0806a3",
+      "4_4_0727.json": "5edca8852e597632e593f540f2bc1988e290e62428b22571c85f1aa55f0d34ac",
+      "4_8_0219.json": "b1a326ef99d35e90a4d157614beab08926d7ffbc6f66f2623e5a031c43e2e0c2",
+      "4_8_0727.json": "32c97b1871c7e9f7af5fd94849a4ce44a90e5f659b73da8ff604b29829af87eb",
+      "5_0.5_0219.json": "64763aef44a3718cacf9368422d4cbd8dc201c42115612b6a2951ce3ae80fb27",
+      "5_0.5_0727.json": "6dd3e230fedd24c1eff570363e7a2d20d677ab6e07dbc90eefbd18b530c001fa",
+      "5_0_0219.json": "f84bb9ec1bfa80d0e580fff30a6d748d775a9733f675f584bd86014ec0042fc8",
+      "5_0_0727.json": "12a48edd47100a33a5efd2b51a0ef196603d75ef68140102c837d91aae8d3707",
+      "5_1_0219.json": "2ba1be1b2e0044adb7b394fa9a943413b81c7aad12ceb67ff869a697b2596ac4",
+      "5_1_0727.json": "5abff5febab4d3074df40d4b7f050c03fcf0ce9a1e7aefb2a4cfbd712125f279",
+      "5_2_0219.json": "b1523cd57b6f2234d3f151597292e3cba790f51c599ca1d4cdfaa143e400b242",
+      "5_2_0727.json": "455d7bf370a04488ef6a19524ae2a924927b1caf3761471606a9120975ca9b63",
+      "5_4_0219.json": "995710283b48588cea557bc0d9e9cf64aa5620a329a6136c9e1b627018c33230",
+      "5_4_0727.json": "2838c3f307996ea5a1c1f2347a569b62652d2db41ffa4a1ece1ef3259d1b982b",
+      "5_8_0219.json": "21856ff08a3b9f18a537f952301695895a55a588f1669e5257d0e5c93e3a2934",
+      "5_8_0727.json": "218ea36c0811eb2c21bdc88e749e91e77441af16f744ada2f4104fad7a5df27b",
+      "6_0.5_0219.json": "8155c18c73d9e88bbe1a8380812a024e860c81d6babb67e716b46467cd4d3ee7",
+      "6_0.5_0727.json": "b9bd5350eb02746770be479c17ff06abe1e1f99cf44cfe382f56b29577a917af",
+      "6_0_0219.json": "858a1eb49994b7a5bab8107390778bac67685a0a28242ba8b7990d3167e3d1c9",
+      "6_0_0727.json": "d105a8b84540a226e9440eea3632aaaf270d33ef4e84d1be40c5d7f973d6e5b5",
+      "6_1_0219.json": "668c402f2abf697f56e7986c81d319a5c83aba6c973b756867b705cc3a382faa",
+      "6_1_0727.json": "047149081d11ea1c7b55a4b5cb0893faaf89ca692a6f0a31abf21d6cc962a756",
+      "6_2_0219.json": "dfef79463326e6812508ad0a225f464b6a0d3ffa781a9969cbe7eeb4211c5dd2",
+      "6_2_0727.json": "881cb424ba56fb01d67bb83bf0f930b8cd8e1673d29dfe440a4e367c2bb50841",
+      "6_4_0219.json": "5a345fb0430df4702923948ae60c3b13671a1cdb1b71112928734653c1278c36",
+      "6_4_0727.json": "a7509a9b18831395dad34cb14433284984b5e21ed4f9cca0aec135cd7deab8ad",
+      "6_8_0219.json": "c61253eb2439e1a610866abe42a8d9408b064dccf7cc5b2f41cde2331b5fc650",
+      "6_8_0727.json": "146c49757fe006b588608c8f3db8072f3d7a2778d4a1cc4a76ec53ed90d2948a",
+      "7_0.5_0219.json": "b16e038cac9cb3343457f55310c24bbfd5f8a35237024fa532849c17e978be8c",
+      "7_0.5_0727.json": "e3f24893fd7a0abe6d50c2d53d3e4166bb2cafe76ef57206142fce09d48fc014",
+      "7_0_0219.json": "2b819e51f11006e7977114a65ba70baeec96c31476cfc893ee9a8a11188c9fd6",
+      "7_0_0727.json": "db73e153dc91e7f50ffb68eeae5823b81cf812dd6161964fdcc33380d5cb6442",
+      "7_1_0219.json": "3e0a2c57e987f35fd023cc827c16a2337e531d3233449a8efa9a84a2b1b54fa3",
+      "7_1_0727.json": "d4980ee037391859869abcc5288453ecc67300426dde161f64a4a092ed9f554a",
+      "7_2_0219.json": "9de4c40a256846f60493ecde10d868dd6abdb912ccf82105280103aa769e1844",
+      "7_2_0727.json": "f862c6036fed76c8b64b9281d1b14a1668abda62666425ff7fcebabf2a96d113",
+      "7_4_0219.json": "3eb8541e017b0ab97d7653b2ab6a85ecdfbcce565012f05e2c68f4e1d57a20cd",
+      "7_4_0727.json": "640a07a60e673691994625375c5f48759ebe48a8cd49fc02b86d73194a2ce7ab",
+      "7_8_0219.json": "e1e702bda1621c9f0b6ed53f483d58c386a5acc8c22581bb4e94858ee896c581",
+      "7_8_0727.json": "201f5f823823232d260ce9a909ff3a7a8e2f2da50d9ea774aa706e61776ac39c"
+    }
+  },
+  "reports": {
+    "github_weekly_html_mode": "同一リポジトリの48時系列JSONを読み込む軽量版",
+    "library_weekly_html_mode": "48条件を内包する自己展開版"
+  }
+}
