@@ -8,6 +8,16 @@
 - [年間計算レポート（Excel）](reports/standard_house_annual_report.xlsx)
 - [最寒週・最暑週レポート（HTML）](reports/standard_house_extreme_weeks.html)
 
+## 年間負荷とC値・UA値
+
+![C値に対する等級別の年間暖房・冷房・暖冷房合計負荷](reports/annual_load_by_c_value.png)
+
+折れ線図の各点は、等級別・C値別の年間計算結果です。左から暖房顕熱、冷房合計（顕熱＋潜熱）、暖冷房合計を示します。縦軸は3図とも0～14,000 kWh/年です。
+
+![C値とUA値に対する年間暖房・冷房・暖冷房合計の等高線図](reports/annual_load_contours_grid.png)
+
+等高線図の黒点は24の計算条件、破線は各条件のC値とUA値です。計算点間は双線形補間しています。土間外周の線熱貫流率を0.99 W/(m·K)としたとき、等級4～7仕様のUA値は順に0.89、0.65、0.50、0.39 W/(m²·K)です。
+
 ## 検証済みデータ
 
 - [年間24条件の集計](data/matrix-snapshot.json)
