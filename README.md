@@ -2,11 +2,17 @@
 
 標準住宅について、断熱等級4～7と隙間倍率0、0.5、1、2、4、8を組み合わせた24条件を比較した年間計算と、最寒週・最暑週の時系列結果です。
 
-## 最終レポート
+## レポートの閲覧
 
-- [年間計算レポート（HTML）](reports/standard_house_annual_report.html)
+[年間・週間グラフをダウンロード（ZIP）](https://github.com/iguchi-lab/standard-house-airtightness-study/raw/refs/heads/main/reports/standard_house_reports.zip)
+
+ZIPを展開し、週間グラフは `standard_house_extreme_weeks.html`、年間グラフは `standard_house_annual_report.html` をブラウザで開いてください。週間版には24条件×2週の時系列を内蔵しています。条件と表示室を選んで閲覧できます。
+
+## レポートのファイル
+
+- [年間計算レポート（HTMLソース）](reports/standard_house_annual_report.html)
 - [年間計算レポート（Excel）](reports/standard_house_annual_report.xlsx)
-- [最寒週・最暑週レポート（HTML）](reports/standard_house_extreme_weeks.html)
+- [最寒週・最暑週レポート（HTMLソース）](reports/standard_house_extreme_weeks.html)
 
 ## 年間負荷とC値・UA値
 
