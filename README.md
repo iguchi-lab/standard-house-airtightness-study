@@ -8,6 +8,10 @@
 
 ZIPを展開し、週間グラフは `standard_house_extreme_weeks.html`、年間グラフは `standard_house_annual_report.html` をブラウザで開いてください。週間版には24条件×2週の時系列を内蔵しています。条件と表示室を選んで閲覧できます。
 
+[主要8室の週間温湿度・箱ひげ図をダウンロード（ZIP）](https://github.com/iguchi-lab/standard-house-airtightness-study/raw/refs/heads/main/reports/weekly_room_boxplots.zip)
+
+展開して `weekly_room_boxplots.html` を開くと、最寒週・最暑週の温度、相対湿度、絶対湿度を切り替え、各室の24条件を横並びで比較できます。
+
 ## レポートのファイル
 
 - [年間計算レポート（HTMLソース）](reports/standard_house_annual_report.html)
