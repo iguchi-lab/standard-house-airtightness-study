@@ -57,3 +57,15 @@ ZIPを展開し、週間グラフは `standard_house_extreme_weeks.html`、年�
 ## 再計算用ノート
 
 - [Colabノート](standard_house_airtightness_insulation_matrix.ipynb)
+
+
+## 個別空調4台の比較
+
+床断熱等級4～7と隙間倍率0～8の24条件を計算しました。各条件の年間8,760時間と、最寒週・最暑週の各168時間を集計しています。
+
+- [閲覧用ZIPをダウンロード](individual-ac/individual_ac_reports.zip?raw=true)（展開してHTMLを開く）
+- [計算条件とファイル一覧](individual-ac/README.md)
+- [年間HTML](individual-ac/annual_report.html)・[年間Excel](individual-ac/annual_report.xlsx)・[集計CSV](individual-ac/annual_summary.csv)
+- 暖冷房負荷の[折線図](individual-ac/annual_load_lines.png)・[等高線図](individual-ac/annual_load_contours.png)
+- 消費電力量の[折線図](individual-ac/annual_electricity_lines.png)・[等高線図](individual-ac/annual_electricity_contours.png)
+- [週間時系列](individual-ac/extreme_weeks.html)・[主要8室の箱ひげ図](individual-ac/weekly_room_boxplots.html)
