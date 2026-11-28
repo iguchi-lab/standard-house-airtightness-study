@@ -79,4 +79,6 @@ ZIPを展開し、週間グラフは `standard_house_extreme_weeks.html`、年�
 - 暖冷房負荷の[折線図](individual-ac-foundation/annual_load_lines.png)・[等高線図](individual-ac-foundation/annual_load_contours.png)
 - 消費電力量の[折線図](individual-ac-foundation/annual_electricity_lines.png)・[等高線図](individual-ac-foundation/annual_electricity_contours.png)
 
-週間時系列・箱ひげ図・閲覧用ZIPは公開確認後にリンクを追加します。
+- [閲覧用ZIPをダウンロード](individual-ac-foundation/individual_ac_foundation_reports.zip?raw=true)（展開してHTMLを開く）
+- [最寒週・最暑週の週間時系列](individual-ac-foundation/extreme_weeks.html)・[主要8室の箱ひげ図](individual-ac-foundation/weekly_room_boxplots.html)
+- [48週のJSON一括ZIP](individual-ac-foundation/weekly_json.zip?raw=true)・[週間データ](individual-ac-foundation/weekly/)・[検証結果](individual-ac-foundation/verification.json)
