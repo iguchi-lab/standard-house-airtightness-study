@@ -1,0 +1,54 @@
+name: Package foundation individual AC reports
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/package-foundation-reports.yml'
+permissions:
+  contents: write
+concurrency:
+  group: package-foundation-reports
+  cancel-in-progress: false
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Verify and package public reports
+        shell: bash
+        run: |
+          python - <<'PY'
+          import csv, json, pathlib, zipfile, math
+          p = pathlib.Path('individual-ac-foundation')
+          rows = list(csv.DictReader((p/'annual_summary.csv').open(encoding='utf-8-sig')))
+          assert len(rows) == 24 and all(int(r['年間時間数']) == 8760 for r in rows)
+          weekly = sorted((p/'weekly').glob('*.json'))
+          assert len(weekly) == 48
+          for f in weekly:
+              d = json.loads(f.read_text(encoding='utf-8'))
+              assert len(d['time']) == 168
+              for key in ('temperature','relative_humidity','absolute_humidity'):
+                  assert len(d[key]) == 9
+                  assert all(len(a) == 168 and all(math.isfinite(v) for v in a) for a in d[key].values())
+          files = [p/n for n in ('README.md','annual_report.html','annual_report.xlsx','annual_summary.csv','annual_load_lines.png','annual_load_contours.png','annual_electricity_lines.png','annual_electricity_contours.png','extreme_weeks.html','weekly_room_boxplots.html','ua.json','verification.json','plotly.min.js')]
+          files += sorted(p.glob('weekly_data_g*.js')) + weekly
+          assert len(files) == 69 and all(f.is_file() for f in files)
+          for name, members in [('individual_ac_foundation_reports.zip', files), ('weekly_json.zip', weekly)]:
+              with zipfile.ZipFile(p/name, 'w', zipfile.ZIP_DEFLATED, compresslevel=9) as z:
+                  for f in members:
+                      z.write(f, f.relative_to(p))
+              with zipfile.ZipFile(p/name) as z:
+                  assert len(z.namelist()) == len(members) and z.testzip() is None
+              print(name, (p/name).stat().st_size)
+          PY
+      - name: Publish verified archives
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add individual-ac-foundation/individual_ac_foundation_reports.zip individual-ac-foundation/weekly_json.zip
+          if ! git diff --cached --quiet; then
+            git commit -m "Package verified foundation individual AC reports"
+            git push origin HEAD:main
+          fi
