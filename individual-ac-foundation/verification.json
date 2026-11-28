@@ -1,0 +1,452 @@
+{
+  "model": "foundation-individual-ac",
+  "verification_scope": "Published annual CSV and 48 weekly JSON files; not a new solver execution",
+  "annual": {
+    "conditions": 24,
+    "hours_per_condition": 8760,
+    "sha": "617c390322aeae1ed8d88ed39e1ae7e8845f4721",
+    "max_sum_error": 9.094947017729282e-13,
+    "max_relative_change_error": 0
+  },
+  "weekly": {
+    "files": 48,
+    "hours_per_file": 168,
+    "series_per_file": 35,
+    "max_sum_error": 8.881784197001252e-16,
+    "files_detail": [
+      {
+        "key": "g4_x0_cold",
+        "hours": 168,
+        "series": 35,
+        "first": "02/19 00:00",
+        "last": "02/25 23:00",
+        "sha": "3266653d03076df975e23deadfcc142997a67f88",
+        "max_sum_error": 0
+      },
+      {
+        "key": "g4_x0.5_cold",
+        "hours": 168,
+        "series": 35,
+        "first": "02/19 00:00",
+        "last": "02/25 23:00",
+        "sha": "ad8e92983b0fe94fa78cf4d0949751387e25f923",
+        "max_sum_error": 0
+      },
+      {
+        "key": "g4_x1_cold",
+        "hours": 168,
+        "series": 35,
+        "first": "02/19 00:00",
+        "last": "02/25 23:00",
+        "sha": "c444c1cd4afee58e100242001bb0d0cd2e46f40f",
+        "max_sum_error": 0
+      },
+      {
+        "key": "g4_x2_cold",
+        "hours": 168,
+        "series": 35,
+        "first": "02/19 00:00",
+        "last": "02/25 23:00",
+        "sha": "0a76d8939d356e74c6e7322804fc72ce716d1ef6",
+        "max_sum_error": 0
+      },
+      {
+        "key": "g4_x4_cold",
+        "hours": 168,
+        "series": 35,
+        "first": "02/19 00:00",
+        "last": "02/25 23:00",
+        "sha": "f0622f58450f6a0957a662ac0f23928feca316ad",
+        "max_sum_error": 0
+      },
+      {
+        "key": "g4_x8_cold",
+        "hours": 168,
+        "series": 35,
+        "first": "02/19 00:00",
+        "last": "02/25 23:00",
+        "sha": "f547016c04d0e3a99a30264c216b173bf5d26c87",
+        "max_sum_error": 0
+      },
+      {
+        "key": "g4_x0_hot",
+        "hours": 168,
+        "series": 35,
+        "first": "07/27 00:00",
+        "last": "08/02 23:00",
+        "sha": "210ee6eb208af940cd32fdb741300cd86480f09e",
+        "max_sum_error": 8.881784197001252e-16
+      },
+      {
+        "key": "g4_x0.5_hot",
+        "hours": 168,
+        "series": 35,
+        "first": "07/27 00:00",
+        "last": "08/02 23:00",
+        "sha": "3753eb136744d130cdd294a08155449f495325b9",
+        "max_sum_error": 4.440892098500626e-16
+      },
+      {
+        "key": "g4_x1_hot",
+        "hours": 168,
+        "series": 35,
+        "first": "07/27 00:00",
+        "last": "08/02 23:00",
+        "sha": "05f87f24e728c62909d85ad0e5f5d6e3097c1961",
+        "max_sum_error": 8.881784197001252e-16
+      },
+      {
+        "key": "g4_x2_hot",
+        "hours": 168,
+        "series": 35,
+        "first": "07/27 00:00",
+        "last": "08/02 23:00",
+        "sha": "bda79ec6d1257c08e93b4f0607d8e0977eff06e3",
+        "max_sum_error": 6.661338147750939e-16
+      },
+      {
+        "key": "g4_x4_hot",
+        "hours": 168,
+        "series": 35,
+        "first": "07/27 00:00",
+        "last": "08/02 23:00",
+        "sha": "78a1fab46295b51c3474afe03d0eeecb809dedca",
+        "max_sum_error": 4.440892098500626e-16
+      },
+      {
+        "key": "g4_x8_hot",
+        "hours": 168,
+        "series": 35,
+        "first": "07/27 00:00",
+        "last": "08/02 23:00",
+        "sha": "99eb0a366287fbd0e126b39ad3a6dea7d06048f6",
+        "max_sum_error": 8.881784197001252e-16
+      },
+      {
+        "key": "g5_x0_cold",
+        "hours": 168,
+        "series": 35,
+        "first": "02/19 00:00",
+        "last": "02/25 23:00",
+        "sha": "21d06e4926f9391f4874e30f0b13ef8ce9107a81",
+        "max_sum_error": 0
+      },
+      {
+        "key": "g5_x0.5_cold",
+        "hours": 168,
+        "series": 35,
+        "first": "02/19 00:00",
+        "last": "02/25 23:00",
+        "sha": "934ac9ae45aff104e7a5cda92c045798ce4b8ebd",
+        "max_sum_error": 0
+      },
+      {
+        "key": "g5_x1_cold",
+        "hours": 168,
+        "series": 35,
+        "first": "02/19 00:00",
+        "last": "02/25 23:00",
+        "sha": "aa5029e75b1ba7bfb0ffa6941d4d7ff73a024bf9",
+        "max_sum_error": 0
+      },
+      {
+        "key": "g5_x2_cold",
+        "hours": 168,
+        "series": 35,
+        "first": "02/19 00:00",
+        "last": "02/25 23:00",
+        "sha": "9be0e1364bbdc3e9b2099c1ef4a5539b08505ef7",
+        "max_sum_error": 0
+      },
+      {
+        "key": "g5_x4_cold",
+        "hours": 168,
+        "series": 35,
+        "first": "02/19 00:00",
+        "last": "02/25 23:00",
+        "sha": "79fde4499ebd2f3921eb071c65ebac28008c82ba",
+        "max_sum_error": 0
+      },
+      {
+        "key": "g5_x8_cold",
+        "hours": 168,
+        "series": 35,
+        "first": "02/19 00:00",
+        "last": "02/25 23:00",
+        "sha": "d5495cef0ead0026bcdbcbaccca74da7d2b03707",
+        "max_sum_error": 0
+      },
+      {
+        "key": "g5_x0_hot",
+        "hours": 168,
+        "series": 35,
+        "first": "07/27 00:00",
+        "last": "08/02 23:00",
+        "sha": "07ae6d45858a0e1863b5bb997f0867fa167bf5af",
+        "max_sum_error": 5.551115123125783e-16
+      },
+      {
+        "key": "g5_x0.5_hot",
+        "hours": 168,
+        "series": 35,
+        "first": "07/27 00:00",
+        "last": "08/02 23:00",
+        "sha": "31ce4006b9eb4efbafa315493a7b987fd08b518a",
+        "max_sum_error": 6.661338147750939e-16
+      },
+      {
+        "key": "g5_x1_hot",
+        "hours": 168,
+        "series": 35,
+        "first": "07/27 00:00",
+        "last": "08/02 23:00",
+        "sha": "8e7339c926d7462b1a941122faf122546e43d937",
+        "max_sum_error": 8.881784197001252e-16
+      },
+      {
+        "key": "g5_x2_hot",
+        "hours": 168,
+        "series": 35,
+        "first": "07/27 00:00",
+        "last": "08/02 23:00",
+        "sha": "c4793a56c0735a2565f989d6151405f8c035babe",
+        "max_sum_error": 8.881784197001252e-16
+      },
+      {
+        "key": "g5_x4_hot",
+        "hours": 168,
+        "series": 35,
+        "first": "07/27 00:00",
+        "last": "08/02 23:00",
+        "sha": "2448ae8451ecb37d8a0f1fff863bf932357e209f",
+        "max_sum_error": 6.661338147750939e-16
+      },
+      {
+        "key": "g5_x8_hot",
+        "hours": 168,
+        "series": 35,
+        "first": "07/27 00:00",
+        "last": "08/02 23:00",
+        "sha": "c089e237e2f41e1de20e506264c1ed03d092cd98",
+        "max_sum_error": 4.440892098500626e-16
+      },
+      {
+        "key": "g6_x0_cold",
+        "hours": 168,
+        "series": 35,
+        "first": "02/19 00:00",
+        "last": "02/25 23:00",
+        "sha": "5856d4ea8324ec50c86f6ca121346f44dd6d3f3b",
+        "max_sum_error": 0
+      },
+      {
+        "key": "g6_x0.5_cold",
+        "hours": 168,
+        "series": 35,
+        "first": "02/19 00:00",
+        "last": "02/25 23:00",
+        "sha": "53807423826702eeade978b27ff21279b50e76ac",
+        "max_sum_error": 0
+      },
+      {
+        "key": "g6_x1_cold",
+        "hours": 168,
+        "series": 35,
+        "first": "02/19 00:00",
+        "last": "02/25 23:00",
+        "sha": "893c9ee4e35f5f5aa3465a2e2082729bfaa30871",
+        "max_sum_error": 0
+      },
+      {
+        "key": "g6_x2_cold",
+        "hours": 168,
+        "series": 35,
+        "first": "02/19 00:00",
+        "last": "02/25 23:00",
+        "sha": "d1843bcad8f11bd4a77a28f05712a5e20835067b",
+        "max_sum_error": 0
+      },
+      {
+        "key": "g6_x4_cold",
+        "hours": 168,
+        "series": 35,
+        "first": "02/19 00:00",
+        "last": "02/25 23:00",
+        "sha": "f4890c6cc5efc31ddaf87d8e3f0e685ee291a7ab",
+        "max_sum_error": 0
+      },
+      {
+        "key": "g6_x8_cold",
+        "hours": 168,
+        "series": 35,
+        "first": "02/19 00:00",
+        "last": "02/25 23:00",
+        "sha": "1b1b6c67a4ac4f50bbce8a888d2cf628ce3a1aee",
+        "max_sum_error": 0
+      },
+      {
+        "key": "g6_x0_hot",
+        "hours": 168,
+        "series": 35,
+        "first": "07/27 00:00",
+        "last": "08/02 23:00",
+        "sha": "ab3470f5bcd1d948e2601422f5d2d157d357f84c",
+        "max_sum_error": 4.440892098500626e-16
+      },
+      {
+        "key": "g6_x0.5_hot",
+        "hours": 168,
+        "series": 35,
+        "first": "07/27 00:00",
+        "last": "08/02 23:00",
+        "sha": "283d89f4f685f31cd67fa3976acaaac82c8986aa",
+        "max_sum_error": 6.661338147750939e-16
+      },
+      {
+        "key": "g6_x1_hot",
+        "hours": 168,
+        "series": 35,
+        "first": "07/27 00:00",
+        "last": "08/02 23:00",
+        "sha": "6f91bb57bead23cac0c016b3ad4a29cf2ffbb9d6",
+        "max_sum_error": 4.440892098500626e-16
+      },
+      {
+        "key": "g6_x2_hot",
+        "hours": 168,
+        "series": 35,
+        "first": "07/27 00:00",
+        "last": "08/02 23:00",
+        "sha": "ad17a5101bc985f86f8d148301c2a12830c17288",
+        "max_sum_error": 5.551115123125783e-16
+      },
+      {
+        "key": "g6_x4_hot",
+        "hours": 168,
+        "series": 35,
+        "first": "07/27 00:00",
+        "last": "08/02 23:00",
+        "sha": "b59101c6115c7b4475bc65a646363a57e004d20c",
+        "max_sum_error": 4.440892098500626e-16
+      },
+      {
+        "key": "g6_x8_hot",
+        "hours": 168,
+        "series": 35,
+        "first": "07/27 00:00",
+        "last": "08/02 23:00",
+        "sha": "9134ec99cd5d41ab1285a1745e945575fd2bf704",
+        "max_sum_error": 4.440892098500626e-16
+      },
+      {
+        "key": "g7_x0_cold",
+        "hours": 168,
+        "series": 35,
+        "first": "02/19 00:00",
+        "last": "02/25 23:00",
+        "sha": "58faf3b09aab19ce724a9d34af171f17d52687bf",
+        "max_sum_error": 0
+      },
+      {
+        "key": "g7_x0.5_cold",
+        "hours": 168,
+        "series": 35,
+        "first": "02/19 00:00",
+        "last": "02/25 23:00",
+        "sha": "74b5c7d58fb335a4f8bc502b2f024caf876cbf37",
+        "max_sum_error": 0
+      },
+      {
+        "key": "g7_x1_cold",
+        "hours": 168,
+        "series": 35,
+        "first": "02/19 00:00",
+        "last": "02/25 23:00",
+        "sha": "b93af56ba3da682baff6f7ce18a821699b47504d",
+        "max_sum_error": 0
+      },
+      {
+        "key": "g7_x2_cold",
+        "hours": 168,
+        "series": 35,
+        "first": "02/19 00:00",
+        "last": "02/25 23:00",
+        "sha": "2a5901ddf3148a1158743bffa67369ac7ac23a64",
+        "max_sum_error": 0
+      },
+      {
+        "key": "g7_x4_cold",
+        "hours": 168,
+        "series": 35,
+        "first": "02/19 00:00",
+        "last": "02/25 23:00",
+        "sha": "28612b4e1c7b9e81cdd5e0d70695955f900573e4",
+        "max_sum_error": 0
+      },
+      {
+        "key": "g7_x8_cold",
+        "hours": 168,
+        "series": 35,
+        "first": "02/19 00:00",
+        "last": "02/25 23:00",
+        "sha": "ec2969698000c8a6844686cdf1952f3e191d3eff",
+        "max_sum_error": 0
+      },
+      {
+        "key": "g7_x0_hot",
+        "hours": 168,
+        "series": 35,
+        "first": "07/27 00:00",
+        "last": "08/02 23:00",
+        "sha": "59537d53f197157683a55364abb650c1beb59779",
+        "max_sum_error": 4.440892098500626e-16
+      },
+      {
+        "key": "g7_x0.5_hot",
+        "hours": 168,
+        "series": 35,
+        "first": "07/27 00:00",
+        "last": "08/02 23:00",
+        "sha": "803b54f9fbd11572545c194370642fd6c69b35d6",
+        "max_sum_error": 3.0531133177191805e-16
+      },
+      {
+        "key": "g7_x1_hot",
+        "hours": 168,
+        "series": 35,
+        "first": "07/27 00:00",
+        "last": "08/02 23:00",
+        "sha": "5f4ea1e8bf0b6dac7d5f050ce9d7c88c51152d44",
+        "max_sum_error": 3.3306690738754696e-16
+      },
+      {
+        "key": "g7_x2_hot",
+        "hours": 168,
+        "series": 35,
+        "first": "07/27 00:00",
+        "last": "08/02 23:00",
+        "sha": "1164e92e1eed8d05711512c4b2c59396d24e54f6",
+        "max_sum_error": 4.440892098500626e-16
+      },
+      {
+        "key": "g7_x4_hot",
+        "hours": 168,
+        "series": 35,
+        "first": "07/27 00:00",
+        "last": "08/02 23:00",
+        "sha": "4bf0a75079e7ce7509a571dc22a559f1203834fa",
+        "max_sum_error": 4.440892098500626e-16
+      },
+      {
+        "key": "g7_x8_hot",
+        "hours": 168,
+        "series": 35,
+        "first": "07/27 00:00",
+        "last": "08/02 23:00",
+        "sha": "37a282b722d33f1518722b7ae13f1cd65a9cfff5",
+        "max_sum_error": 4.440892098500626e-16
+      }
+    ]
+  },
+  "source": "GitHub main, individual-ac-foundation/"
+}
