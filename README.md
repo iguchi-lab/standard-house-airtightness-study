@@ -69,3 +69,14 @@ ZIPを展開し、週間グラフは `standard_house_extreme_weeks.html`、年�
 - 暖冷房負荷の[折線図](individual-ac/annual_load_lines.png)・[等高線図](individual-ac/annual_load_contours.png)
 - 消費電力量の[折線図](individual-ac/annual_electricity_lines.png)・[等高線図](individual-ac/annual_electricity_contours.png)
 - [週間時系列](individual-ac/extreme_weeks.html)・[主要8室の箱ひげ図](individual-ac/weekly_room_boxplots.html)
+
+## 個別空調4台の比較（基礎断熱）
+
+基礎断熱等級4～7（UA値 0.89、0.65、0.50、0.39 W/(m²·K)）と隙間倍率0～8の24条件について、年間8,760時間の計算結果を掲載しています。床断熱版とは別に整理しています。
+
+- [計算条件とファイル一覧](individual-ac-foundation/README.md)
+- [年間HTML](individual-ac-foundation/annual_report.html)・[年間Excel](individual-ac-foundation/annual_report.xlsx)・[集計CSV](individual-ac-foundation/annual_summary.csv)
+- 暖冷房負荷の[折線図](individual-ac-foundation/annual_load_lines.png)・[等高線図](individual-ac-foundation/annual_load_contours.png)
+- 消費電力量の[折線図](individual-ac-foundation/annual_electricity_lines.png)・[等高線図](individual-ac-foundation/annual_electricity_contours.png)
+
+週間時系列・箱ひげ図・閲覧用ZIPは公開確認後にリンクを追加します。
